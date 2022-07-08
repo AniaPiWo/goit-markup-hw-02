@@ -8,6 +8,19 @@ body {
   color: var(--text-color)
 }
 
+.menu ul {
+  list-style-type: none;
+  }
+
+.advantages ul {
+    list-style-type: none;
+    }
+
+.logo a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .logo-1 {
   font-family: 'Raleway';
   font-style: normal;
@@ -29,6 +42,7 @@ body {
   letter-spacing: 0.03em;
   color: #000;
 }
+
 
 .logo-3 {
 font-family: 'Raleway';
@@ -195,3 +209,6 @@ height: 252px;
 background: #2F303A;
 }
 
+.link-footer:hover {
+  color: var(--brand-color)
+}
